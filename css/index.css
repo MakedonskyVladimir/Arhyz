@@ -94,3 +94,21 @@ nav li a {
     float: left;
     margin: 10px;
 }
+
+.equipment {
+    display: inline-block;
+    width: max-content;
+    border-color: red;
+    border: 1px solid rebeccapurple;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.equipment:hover {
+    background: rgb(235, 231, 231);
+    position: relative;
+    /* top: -5px; */
+    /* padding: 15px; */
+    transform: rotate(-2deg);
+}
